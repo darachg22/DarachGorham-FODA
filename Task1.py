@@ -12,7 +12,7 @@ def Collatz(n):
     out=[n]
     while n>1:
         if n%2==0:
-            n = n//2
+           n = n//2
         else:
             n = (n*3)+1
         out.append(int(n))
@@ -22,4 +22,6 @@ n = int(input("Enter a number:"))
 result = Collatz(n)
 print(*result)
 
-#I now need to alter the code to fit the brief i.e.
+#I now need to alter the code to fit the brief i.e.verify, using Python, that the conjecture is true for the first 10,000 positive integers
+#source used: https://stackoverflow.com/questions/13366830/collatz-conjecture-sequence
+#             https://www.sanfoundry.com/python-program-test-collatz-conjecture-given-number/
