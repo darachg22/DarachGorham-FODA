@@ -21,6 +21,12 @@ false = []
 #altering code for task
 for i in range(1,10000): 
     Verif = Collatz(i) #https://www.freecodecamp.org/news/python-for-loop-for-i-in-range-example/ 
-    
+    if_true = Verif [-1] == 1
+    if if_true: true.append(i)
+    else: false.append(i)
+
+print("Collatz conjecture is true:", true)
+print("Collatz conjecture is false:", false)
+
 
     
