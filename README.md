@@ -1,6 +1,8 @@
 # DarachGorham-FODA
 My repository for the Module "FUNDAMENTALS OF DATA ANALYSIS", containing tasks, projects, notebooks and readme files.
 
+This repository contains 4 files. Within the tasks file there are 5 tasks, some text based and others containing codes to run. To run each code is as follows:
+
 Task 1: Collatz Conjecture Verifier
 
 Progam aim:
